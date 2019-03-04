@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eureka-naming-server
+  cloud:
+    config:
+      uri: http://localhost:8888 
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false      
